@@ -17,8 +17,8 @@ class DatabaseHelper {
   Future<Database> _initDatabase() async {
     final dbPath = await getDatabasesPath();
     final path = join(dbPath, 'tasks.db');
-  await deleteDatabase(path); // borra la base de datos existente
-  print('Base de datos eliminada. Se creará de nuevo al abrir.');
+  /// await deleteDatabase(path); // borra la base de datos existente
+ //  print('Base de datos eliminada. Se creará de nuevo al abrir.');
     return await openDatabase(
       path,
       version: 1,
