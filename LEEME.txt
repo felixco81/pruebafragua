@@ -1,0 +1,4 @@
+PRUEBA
+FELIX CARRILLO OROZCO
+* Revisar archivo .env ahí se encuntran las variables de entorno para el consumo del api 
+* La prueba 2 y 4, son la misma, se unifican para cubrir las especificaciones
